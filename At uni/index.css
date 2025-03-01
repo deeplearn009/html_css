@@ -1,0 +1,37 @@
+/* Global parameters */
+*{
+    text-align: center;
+    color:white;
+}
+
+/* Border properties */
+table, th, td {
+
+    border: 3px solid black;
+    border-collapse: collapse; 
+    border-style: outset;
+}
+
+th, td {
+    background-color: cornflowerblue;
+}
+
+h1 {
+    color:red;
+}
+
+
+#test {
+
+    width: 10px;
+}
+
+
+/* Table size */
+
+table {
+
+    width: 50%;
+    height: 20%;
+}
+
