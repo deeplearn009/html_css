@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* First flexbox */
+
+.flexbox {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+    border: 5px solid black;
+    margin: 400px;
+    padding: 50px;
+    border-radius: 10px;
+}
+
+.flexbox div {
+    width: 70px;
+    height: 70px;
+    background-color: aquamarine;
+    border: 1px solid black;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 50px;
+    line-height: 65px;
+}  
+
+.flexbox div:hover {
+    border: 3px solid red;
+}
+
+/* Second flexbox */
+
+.flexbox_2 {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border: 5px solid black;
+    margin: auto;
+    padding: 20px;
+    width: fit-content;
+    border-radius: 10px;
+    margin-top: -400px;
+}
+
+.flexbox_2 div {
+    width: 50px;
+    height: 50px;
+    background-color: aquamarine;
+    border: 1px solid black;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 20px;
+    line-height: 45px;
+}
+
+
+.flexbox_2 div:hover {
+    border: 3px solid red;
+}
