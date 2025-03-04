@@ -3,7 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
-/* First flexbox */
+
 
 .flexbox {
     display: flex;
@@ -30,8 +30,6 @@
 .flexbox div:hover {
     border: 3px solid red;
 }
-
-/* Second flexbox */
 
 .flexbox_2 {
     display: flex;
