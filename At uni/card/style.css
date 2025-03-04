@@ -7,6 +7,8 @@
 body{
     display: flex;
     justify-content: center;
+    align-items: center;
+    height: 100vh;
 }
 
 
@@ -17,28 +19,24 @@ body{
     justify-content: center;
     align-items: center;
     background-color: purple;
-    /* margin: 250px; */
     gap: 10px;
-    /* padding: 5px; */
-    width: 90%;
-    height: 100%;
+    width: 50%;
+    height: 50%;
     
 }    
 
 .first  {
    background: white;
-   /* padding: 20px; */
    margin: 10px;
    border-radius: 10px;
-   box-shadow: ;
    text-align: center;
    width: 250px;
+   height: 350px;
 }
 
 
 .second {
     background: white;
-    /* padding: 20px; */
     margin: 10px;
     border-radius: 10px;
     box-shadow: ;
@@ -49,7 +47,6 @@ body{
 
 .third {
     background: white;
-    /* padding: 20px; */
     margin: 10px;
     border-radius: 10px;
     box-shadow: ;
@@ -81,17 +78,17 @@ body{
     border: 3px solid purple;  
 }
 
-
 .subscribe {
     border: 2px solid purple;
     background-color: purple;
     color: white;
     padding: 10px;
     width: 100px;
-    margin: 5px;
+    margin: 1px;
     border-radius: 5px;
     cursor: pointer;
     transition: 0.3s;
+    justify-content: space-evenly;
 }
 
 
@@ -115,17 +112,3 @@ body{
     background-color: plum;
     transition: 0.3s;
 }
-
-
-
-
-
-/* .imgbox {
-    width: 100%;
-    border-radius: 50%;
-    border: 3px solid purple;
-    
-    img {
-        width: 100%;
-    }
-} */
