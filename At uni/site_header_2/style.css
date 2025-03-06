@@ -1,0 +1,115 @@
+@import url(https://fonts.googleapis.com/css?family=Quicksand:300,regular,500,600,700);
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Quicksand;
+}
+
+
+.container {
+    height: 100vh;
+    width: 100%;
+}
+
+.header {
+    width: 100%;
+    height: 90px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid black;
+    font-size: 20px;
+    color: white;
+    background-color: black;
+}
+
+.brand {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 10%;
+     
+        img {
+            width: 100%;
+            padding-left: 20px;
+        }
+}
+
+.navigation {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+    width: 63%;
+    gap: 20px;
+}
+
+.right {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 23%;
+    height: 100%;
+    gap: 10px;
+}
+
+
+.btn {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 7px;
+    font-size: 20px;
+    background-color: black;
+    color: white;
+    border: none;
+    height: 100%;
+    padding: 10px;
+    transition: .3s;
+    cursor: pointer;
+
+        i {
+            font-size: 15px;
+        }
+}
+
+
+button:hover {
+    background-color: gray;
+    padding: 10px;
+    border-radius: 10px;
+    transition: .3s;
+}
+
+input {
+    width: 150px;
+    height: 40px;
+    border-radius: 10px;
+    border: 1px solid gray;
+    background-color: black;
+    color: white;
+}
+
+
+.start_free_btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+#btn {
+    width: 110px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border: none;
+    cursor: pointer;
+}
+
