@@ -1,0 +1,148 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,regular,500,600,700,800,300italic,italic,500italic,600italic,700italic,800italic);
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Open sans;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; 
+    width: 100%;
+    height: 100vh;
+    background-color: white;
+}
+
+.header {   
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 60px;
+    background-color: rgb(44, 44, 44);
+}
+
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 170px;
+    height: 100%;
+    padding-left: 10px;
+        img {
+            width: 90%;
+            height: 60%;
+        }
+}
+
+.jellyfish_text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* width: 49%; */
+    height: 100%;
+    /* font-size: 50px; */
+    color: white;
+    background-color: black;
+    border: none;
+     
+        button {
+            border: none;
+            background-color: black;
+            color: white;
+            height: 100%;
+            font-size: 24px;
+            width: 100%;
+        }
+}
+
+.right {
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    align-items: center;
+    gap: 25px;
+    width: 84%;
+    padding-right: 20px;
+    font-size: 30px;
+}
+
+.desktop_icon {
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    padding: 7px;
+}
+
+.tablet_icon {
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    padding: 7px;
+}
+
+.phone_icon {
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    padding: 7px;
+}
+
+.shop_icon {
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    padding: 7px;
+}
+
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 93.7%;
+        background-image: url(./slider_1.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-attachment: fixed;
+        background-size: cover;
+}
+
+.center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    height: 50%;
+}
+
+.center_text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    gap: 15px;
+}
+
+.top_text {
+    font-size: 56px;
+    font-weight: 700;
+}
+
+.bottom_text {
+    display: flex;
+    text-align: center;
+    font-size: 26px;
+}
+
+
+
+
+
+
+
+
+
