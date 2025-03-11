@@ -1,0 +1,257 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.container {
+    font-family: Montserrat;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+
+.section_1 {
+    width: 100%;
+    height: 110vh;
+}
+
+
+.header {
+
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+
+        .brand {
+            width: 200px;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-weight: 600;
+            font-size: 30px;
+            text-align: center;
+
+                i {
+                    color: #00bd56;
+                }
+
+        }
+
+        .nav {
+            height: 100%;
+            width: 40%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 20px;
+            font-weight: 600;
+
+                nav {
+                    cursor: pointer;
+                }
+        }
+
+
+}
+
+.box {
+    width: 100%;
+    height: 100vh;
+    background-image: url(https://preview.colorlib.com/theme/petsitting/images/bg_1.jpg);
+    background-attachment: fixed ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+        img {
+            width: 100%;
+            height: 100%;
+            
+        }
+
+        .center_words {
+            width: 80%;
+            height: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            color: white;
+            gap: 30px;
+
+                .words {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    font-size: 80px;
+                    width: 90%;
+                    height: 200px;
+                    font-weight: 500;
+                    text-align: center;
+
+                }
+
+                .learnmore_btn {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    width: 150px;
+                    height: 60px;
+                    background-color: #00bd56;
+                    font-weight: 500;
+                    cursor: pointer;
+                }
+        }
+        
+
+}
+
+.section_2 {
+    width: 100%;
+    height: 100%;
+}
+
+.top_level {
+    width: 100%;
+    height: 40%;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+    background-color: #f8f9fd;
+
+        .card {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            width: 350px;
+            height: 300px;
+            background-color: #00bd56;
+            color: white;
+
+                .header {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    width: 100%;
+                    height: 20%;
+                    position: relative;
+
+                        .icon {
+                            position: absolute;
+                            top: -40px;
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            width: 100px;
+                            height: 100px;
+                            border-radius: 50%;
+                            background-color: white;
+                                
+                                i {
+                                    color: #00bd56;
+                                    font-size: 35px;
+                                }
+                        }
+
+                }
+
+                .main_content {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    flex-direction: column;
+                    width: 80%;
+                    height: 70%;
+                    text-align: center;
+                    gap: 20px;
+
+                        span {
+                            font-size: 20px;
+                            font-weight: 600;
+                        }
+
+                        p {
+                            letter-spacing: 2px;
+                            color: #cef2de;
+                        }
+
+
+
+                }
+
+                .footer_part {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    width: 100%;
+                    height: 10%;
+                    position: relative;
+
+                        .footer_btn {
+                            position: absolute;
+                            bottom: -20px;
+                            width: 50px;
+                            height: 50px;
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            border-radius: 50%;
+                            background-color: white;
+                            color: #00bd56;
+                            font-size: 26px;
+
+                        }
+
+                }
+
+
+        }
+
+
+}
+
+#card_bgcolor {
+    background-color: white;
+}
+
+#text_color {
+    color: black;
+}
+
+#icon_bgcolor {
+    background-color: #f0f0f0;
+}
+
+#p_color {
+    color: #828282  ;
+}
+
+#btn_color {
+    background-color: #00bd56;
+    color: white;
+}
+
+
+.bottom_level {
+    width: 100%;
+    height: 60%;
+}
+
