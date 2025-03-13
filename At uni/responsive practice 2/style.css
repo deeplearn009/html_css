@@ -108,10 +108,11 @@
 
     .header {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
     padding: 20px;
     width: 100%;
+
     }
 
 
@@ -139,6 +140,12 @@
     .right {
         width: 10%;
     }
+
+    .brand_name {
+        width: 50%;
+    }
+
+
     
 }
 
