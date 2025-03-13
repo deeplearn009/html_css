@@ -1,0 +1,221 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.section_1 {
+  width: 100%;
+  height: 100vh;
+}
+
+.header {
+  width: 100%;
+  height: 77px;
+  padding: 10px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20%;
+  background-color: white;
+
+  .brand {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Raleway";
+    font-size: 24px;
+    height: 100%;
+
+    span {
+      font-weight: 300;
+    }
+  }
+
+  .nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 30px;
+    font-family: "Raleway";
+    font-size: 13px;
+    height: 100%;
+    position: relative;
+
+    .search {
+      position: absolute;
+      left: 540px;
+      cursor: pointer;
+      font-size: 16px;
+    }
+
+    a {
+      text-decoration: none;
+      color: black;
+    }
+  }
+}
+
+.box {
+  width: 100%;
+  height: 100vh;
+  background-image: url(https://149842022.v2.pressablecdn.com/wp-content/uploads/sites/59/2016/03/photo-1443527216320-7e744084f5a7-1.jpg);
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  img {
+    width: 100%;
+  }
+
+  .center_text {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 35px;
+    font-family: "Raleway";
+    color: white;
+
+    .top_text {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 30px;
+
+      h1 {
+        font-weight: 400;
+      }
+    }
+
+    .buttons {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: row;
+      gap: 10px;
+
+      .btn1 {
+        width: 200px;
+        height: 54px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+        background-color: #745cf9;
+        transition: 0.5s;
+
+        &:hover {
+          background-color: #6450d6d2;
+          transition: 0.5s;
+        }
+      }
+
+      .btn2 {
+        width: 200px;
+        height: 54px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+        border: 1px solid white;
+        transition: 0.5s;
+
+        &:hover {
+          background-color: white;
+          color: black;
+        }
+      }
+    }
+  }
+}
+
+.section_2 {
+  width: 100%;
+}
+
+.main_2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 644.17px;
+  padding: 96px;
+
+  .content_2 {
+    width: 1170px;
+    height: 452px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+
+    .mac_img {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 682px;
+      height: 452px;
+      img {
+        width: 100%;
+        height: auto;
+      }
+    }
+
+    .right_2 {
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      flex-direction: column;
+      width: 390px;
+      height: 311px;
+      gap: 25px;
+      font-family: "Raleway";
+      position: relative;
+
+        .seo_friendly {
+          width: 100%;
+          height: 33px;
+            h3 {
+              font-size: 30px;
+              font-weight: 400;
+            }
+        }
+
+        .p2 {
+          width: 100%;
+          height: 144px;
+            p {
+              font-size: 14px;
+              font-weight: 400;
+            }
+        }
+
+        .btn_2 {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          width: 200px;
+          height: 54px;
+          // position: absolute;
+          // top: 260px;
+          // left: -0.1px;
+          background-color: #745cf9;
+          color: white;
+        }
+    }
+  }
+}
