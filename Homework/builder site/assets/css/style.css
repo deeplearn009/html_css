@@ -228,6 +228,7 @@
   align-items: center;
   font-size: 20px;
   margin-bottom: 20px;
+  cursor: pointer;
 }
 .section_2 .container_2 .cards .card_1 .paragraph {
   width: 100%;
