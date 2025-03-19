@@ -1,0 +1,611 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
+@import url(https://fonts.googleapis.com/css?family=Josefin+Sans:100,200,300,regular,500,600,700,100italic,200italic,300italic,italic,500italic,600italic,700italic);
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+}
+
+.section_1 {
+    width: 100%;
+
+
+        .header {
+            width: 100%;
+            height: 106px;
+            padding-left: 85px;
+            padding-right: 85px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-family: "Roboto", sans-serif;
+            font-weight: normal;
+            font-size: 16px;
+
+                .logo {
+                    width: 20%;
+                    height: 100%;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                }
+
+                .nav {
+                    width: 60%;
+                    height: 100%;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    gap: 50px;
+                }
+
+                .right {
+                    width: 20%;
+                    height: 100%;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+
+                        .iconbox {
+                            width: 100%;
+                            height: 100%;
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            gap: 30px;
+                        }
+                }
+
+                .menu {
+                    display: none;
+                }
+
+        }
+
+        .box {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #f0f0f2   ;
+
+                .center {
+                    width: 100%;
+                    padding-left: 300px;
+                    padding-right: 300px;
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    flex-direction: row;
+
+                        .left {
+                            width: 60%;
+                            display: flex;
+                            // align-items: center;
+                            justify-content: start;
+                            flex-direction: column;
+
+                                .title {
+                                    width: 100%;
+                                    font-size: 96px;
+                                    font-weight: 700;
+                                    font-family: "Josefin Sans", sans-serif;
+                                    margin: 0px 0px 100px;
+                                    // padding-bottom: 100px;
+                                }
+
+                                .paragraph {
+                                    width: 100%;
+                                    margin: 0px 0px 60px;
+                                    font-size: 19px;
+                                    font-family: "Roboto", sans-serif;
+                                    font-weight: 400;
+                                }
+
+                                .btn {
+                                    width: 155px;
+                                    height: 50px;
+                                    display: flex;
+                                    justify-content: center;
+                                    align-items: center;
+                                    background-color: #4a4a4b;
+                                    color: white;
+                                    transition: .5s;
+                                    cursor: pointer;
+
+                                        &:hover {
+                                            background-color: #ff2022;
+                                            transition: .5s;
+                                        }
+                                }
+                        }
+
+                        .right {
+                            width: 40%;
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+
+                                .img {
+                                    width: 100%;
+                                    display: flex;
+                                    justify-content: center;
+                                    align-items: center;
+                                    transition: .7s;
+                                        img {
+                                            width: 70%;
+                                        }
+
+                                        &:hover {
+                                            scale: 1.1;
+                                            transition: .7s;
+                                        }
+                                }
+                        }
+                }
+            }       
+}
+
+// Section 1 responsive
+
+@media screen and (min-width:320px) and (max-width:768px)  {
+    .container .section_1 .header {
+        
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0;
+
+            .logo {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 70%;
+            }
+
+
+        .nav {
+            display: none;
+        }
+
+        .right {
+            display: none;
+        }
+
+        .menu {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 30%;
+        }
+
+    }
+
+    .container .section_1 .box .center {
+        padding: 40px 0px 40px;
+        // padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+
+        .right {
+            display: none;
+        }
+
+        .left {
+            width: 80%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+                .title {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    font-size: 33px;
+                    margin: 0px 0px 26px;
+                }
+        }
+    }
+}
+
+.section_2 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+        .center {
+            width: 60%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            padding-top: 130px;
+            padding-bottom: 130px;
+
+
+                .title {
+                    width: 100%;
+                    display: flex;
+                    justify-content: start;
+                    align-items: center;
+                    font-size: 48px;
+                    font-weight: 700;
+                    font-family: "Josefin Sans", sans-serif;
+                    padding: 0px 15px;
+                    margin-bottom: 70px;
+
+                        .h2 {
+                            margin: 0px 0px 8px;
+                        }
+                }
+
+                .img_box {
+                    width: 100%;
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    flex-direction: row;
+                    
+                        .watchface_img {
+                            width: 30%;
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            flex-direction: column;
+
+                                .img {
+                                    width: 100%;
+                                    margin-bottom: 20px;
+
+                                        img {
+                                            width: 100%;
+                                            height: auto;
+                                            transition: .7s;
+                                                &:hover {
+                                                    transition: .7s;
+                                                    scale: 1.1;
+                                                }
+                                        }
+
+                                }
+
+                                .name {
+                                    width: 100%;
+                                    display: flex;
+                                    justify-content: center;
+                                    align-items: center;
+                                    font-size: 24px;
+                                    color: #444;
+                                    margin-bottom: 12px;
+                                    font-weight: 700;
+                                    font-family: "Josefin Sans", sans-serif;
+                                }
+
+                                .price {
+                                    width: 100%;
+                                    display: flex;
+                                    justify-content: center;
+                                    align-items: center;
+                                    font-size: 18px;
+                                    color: #ff2020;
+                                    font-weight: 500;
+                                }
+                        }
+                }
+        }
+}
+
+// Section 2 responsive
+
+@media screen and (min-width:320px) and (max-width:768px) {
+    .section_2 .center {
+        width: 90%;
+        
+
+            .title {
+                font-size: 26px;
+                padding: 0;
+            }
+
+            .img_box {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+
+                    .watchface_img {
+                        width: 80%;
+                        padding-bottom: 30px;
+
+                        .name {
+                            font-size: 18px;
+                        }
+                    }
+            }
+    }
+}
+
+.section_3 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 130px;
+    padding-bottom: 130px;
+
+        .img-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-template-rows: repeat(3, auto);
+            gap: 20px;
+
+                .image {
+                    width: 100%;
+                    height: 100%;
+                    opacity: 1;
+                    transition: .5s;
+
+                        &:hover {
+                            opacity: .6;
+                            transition: .5s;
+                        }
+
+                }
+
+                #test {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                    gap: 40px;
+
+                }    
+        }
+}
+
+// Section 3 responsive
+
+@media screen and (min-width:320px) and (max-width:768px) {
+    .container .section_3 .img-grid {
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+        gap: 0;
+            .image {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 100%;
+                    img {
+                        width: 100%;
+                    }
+            }
+
+            #test {
+                gap: 0;
+            }
+    }
+}
+
+.section_4 {
+    width: 100%;
+    padding-top: 130px;
+    padding-bottom: 130px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+        .center {
+            width: 70%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+
+                .title {
+                    width: 50%;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    flex-direction: column;
+                    margin-bottom: 70px;
+                        h2 {
+                            font-size: 48px;
+                            font-family: "Josefin Sans", sans-serif;
+                            margin: 0px 0px 8px;
+                        }
+                        p {
+                            font-size: 16px;
+                            font-family: "Roboto", sans-serif;
+                            margin: 0px 0px 15px;
+                            color: #777;
+                            text-align: center;
+
+                        }
+                }
+
+                .box {
+                    width: 100%;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    flex-direction: row;
+                    flex-wrap: wrap;
+
+                        .watchface_card {
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            flex-direction: column;
+                            width: 30%;
+
+
+                                .watch_img {
+                                    width: 100%;
+                                    display: flex;
+                                    justify-content: center;
+                                    align-items: center;
+                                    padding-bottom: 20px;
+                                        img {
+                                            border-bottom: 3px solid red;
+                                        }
+                                }
+
+
+
+                                .name {
+                                    width: 100%;
+                                    display: flex;
+                                    justify-content: center;
+                                    align-items: center;
+                                    font-size: 24px;
+                                    color: #444;
+                                    font-weight: 700;
+                                        span {
+                                            margin-bottom: 12px;
+                                        }
+                                }
+
+                                .price {
+                                    width: 100%;
+                                    display: flex;
+                                    justify-content: center;
+                                    align-items: center;
+                                    color: #444;
+                                    font-size: 18px;
+                                    font-weight: 500;
+                                }
+                        }
+
+
+                }
+
+                .btn {
+                    margin-top: 80px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    width: 256px;
+                    height: 50px;
+                    background-color: #ff2020;
+                    color: #f0f0f2;
+                    font-family: "Josefin Sans", sans-serif;
+                    font-size: 16px;
+                    font-weight: 600;
+                    cursor: pointer;
+                    transition: .5s;
+
+                        &:hover {
+                            transition: .5s;
+                            background-color: #4a4a4b;
+                        }
+
+
+
+                }
+        }
+}
+
+// Section 4 responsive
+
+@media screen and (min-width:320px) and (max-width:768px) {
+    .section_4 .center {
+        width: 90%;
+
+        .title {
+            width: 90%;
+            h2 {
+                font-size: 32px;
+            }
+        }
+
+        .box {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            gap: 30px;
+
+                .watchface_card {
+                    width: 100%;
+                }
+        }
+    }
+}
+
+.section_5 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 130px;
+    padding-top: 130px;
+
+        .center {
+            width: 70%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+
+                .product {
+                    width: 100%;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    flex-direction: row;
+
+                        .left {
+                            width: 40%;
+                            display: flex;
+                            justify-content: start;
+                            align-items: center;
+                            flex-direction: column;
+                                h2 {
+                                    font-size: 56px;
+                                    font-family: "Josefin Sans", sans-serif;
+                                    font-weight: 700;
+                                    margin-bottom: 40px;
+                                }
+
+                                p {
+                                    font-size: 16px;
+                                    color: #777;
+                                    font-weight: normal;
+                                    font-family: "Roboto", sans-serif;
+                                    margin-bottom: 40px;
+                                }
+
+                                .btn {
+                                    width: 250px;
+                                    height: 50px;
+                                    display: flex;
+                                    justify-content: center;
+                                    align-items: center;
+                                    background-color: #ff2020;
+                                    color: white;
+                                }
+                        }
+
+                        .right {
+                            width: 60%;
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                        }
+                }
+        }
+}
