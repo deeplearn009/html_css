@@ -1430,10 +1430,18 @@
     }
     .shortcut_box .shortcuts {
       width: 90%;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      flex-direction: column;
+      // display: flex;
+      // justify-content: center;
+      // align-items: center;
+      // flex-direction: column;
+      position: unset;
+      overflow-x: auto;
+      white-space: nowrap;
+      width: 100%;
+      ::-webkit-scrollbar {
+        display: none;
+      }
+      
       .card {
         flex-direction: column;
         width: 90%;
@@ -1449,7 +1457,8 @@
     }
     .shortcut_box {
       .unicode {
-        writing-mode: vertical-rl;
+        // writing-mode: vertical-rl;
+        display: none;
       }
     }
   }
@@ -1458,6 +1467,7 @@
     width: 100%;
     .title {
       margin-bottom: 10px;
+      padding-left: 10px;
       span {
         font-size: 18px;
       }
@@ -1560,7 +1570,10 @@
     .promo_con_2 {
       margin: 10px;
 
-      .promo_area {
+    }
+    
+
+      .promo_con .promo_area {
         width: 100%;
         justify-content: center;
         background-image: url(https://n11scdn.akamaized.net/a1/750_700/25/03/19/77/88/30/02/83/55/59/57/33/43038230275546593433.jpg);
@@ -1597,7 +1610,46 @@
           }
         }
       }
-    }
+
+      .promo_con_2 .promo_area {
+        width: 100%;
+        justify-content: center;
+        background-image: url(https://n11scdn.akamaized.net/a1/750_700/25/03/14/68/29/52/55/58/80/95/40/49/6829028277212788688.jpg);
+        background-size: contain;
+        border-radius: 0;
+        .right {
+          width: 100%;
+          .cards {
+            margin-top: 240px;
+            background: #597482;
+            width: 100%;
+            padding: 5px;
+            justify-content: space-between;
+            gap: 10px;
+            .card {
+              width: 40%;
+              .description .rating .stars {
+                width: 60%;
+                font-size: 8px;
+              }
+            }
+          }
+
+          .brand_list {
+            background: #597482;
+            margin-top: 0;
+            padding: 10px;
+          }
+
+          #second_brand_list {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+          }
+        }
+      }
+
+    
   }
 
   .container .section_1 .brands_area {
