@@ -1,0 +1,1509 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="header_con">
+        <div class="header">
+          <div class="menu">
+            <i class="fa-solid fa-bars"></i>
+          </div>
+
+          <div class="logo">
+            <img
+              src="https://n11scdn.akamaized.net/a1/org/25/03/18/89/65/01/31/94/13/25/13/93/66889250221518075393.svg"
+              alt="Logo"
+            />
+          </div>
+
+          <div class="search">
+            <input type="text" placeholder="Ürün, kategori, marka ara" />
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </div>
+
+          <div class="location">
+            <div class="location_ico">
+              <i class="fa-solid fa-location-dot"></i>
+            </div>
+
+            <div class="textbox">
+              <span>TESLIMAT ADRESI</span>
+              <a href="#">Adres Ekle</a>
+            </div>
+          </div>
+
+          <div class="right">
+            <div class="unicode">
+              <span>|</span>
+            </div>
+
+            <div class="cart_ico">
+              <i class="fa-solid fa-cart-shopping"></i>
+            </div>
+
+            <div class="profile">
+              <div class="profile_ico">
+                <i class="fa-solid fa-user"></i>
+              </div>
+
+              <div class="textbox_2">
+                <div class="hesab">
+                  <span>HESABIM</span>
+                </div>
+
+                <div class="sign_in">
+                  <a href="#">Üye Ol</a>
+                  <a href="#">Giriş Yap</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="under_header_con">
+          <div class="under_header">
+            <div class="moda">
+              <div class="img">
+                <img
+                  src="https://n11scdn.akamaized.net/a1/30/23/04/27/50/92/89/68/98/82/81/83/46/87911743275366201592.png"
+                  alt=""
+                />
+              </div>
+
+              <div class="description">
+                <span>Moda</span>
+              </div>
+            </div>
+
+            <div class="electronics">
+              <div class="img">
+                <img
+                  src="https://n11scdn.akamaized.net/a1/30/22/08/01/53/46/97/55/78/81/00/58/49/31961828233979739225.png"
+                  alt=""
+                />
+              </div>
+
+              <div class="description">
+                <span>Elektronik</span>
+              </div>
+            </div>
+
+            <div class="ev">
+              <div class="img">
+                <img
+                  src="https://n11scdn.akamaized.net/a1/30/22/08/01/86/32/24/29/29/47/16/41/05/57126929366806936432.png"
+                  alt=""
+                />
+              </div>
+
+              <div class="description">
+                <span>Ev & Yaşam</span>
+              </div>
+            </div>
+
+            <div class="mother">
+              <div class="img">
+                <img
+                  src="https://n11scdn.akamaized.net/a1/30/22/08/01/77/23/79/89/22/11/13/67/06/1817596495358676750.png"
+                  alt=""
+                />
+              </div>
+
+              <div class="description">
+                <span>Anne & Bebek</span>
+              </div>
+            </div>
+
+            <div class="cosmetics" id="cosmetics">
+              <div class="img">
+                <img
+                  src="https://n11scdn.akamaized.net/a1/30/22/08/01/82/78/22/64/91/17/58/84/05/11823586115151480719.png"
+                  alt=""
+                />
+              </div>
+
+              <div class="description">
+                <span>Kozmetik & Kişisel Bakım</span>
+              </div>
+            </div>
+
+            <div class="watch">
+              <div class="img">
+                <img
+                  src="https://n11scdn.akamaized.net/a1/30/23/05/30/61/78/87/08/84/35/58/58/07/48911776658065241375.png"
+                  alt=""
+                />
+              </div>
+
+              <div class="description">
+                <span>Mücevher & Saat</span>
+              </div>
+            </div>
+
+            <div class="sport">
+              <div class="img">
+                <img
+                  src="https://n11scdn.akamaized.net/a1/30/22/08/01/78/48/54/32/73/75/59/66/38/52455961286243405128.png"
+                  alt=""
+                />
+              </div>
+
+              <div class="description">
+                <span>Spor & Outdoor</span>
+              </div>
+            </div>
+
+            <div class="books" id="books">
+              <div class="img">
+                <img
+                  src="https://n11scdn.akamaized.net/a1/30/22/08/01/86/74/46/47/76/61/89/79/84/34021047252181561848.png"
+                  alt=""
+                />
+              </div>
+
+              <div class="description">
+                <span>Kitap, Müzik, Film, Oyun</span>
+              </div>
+            </div>
+
+            <div class="automobile">
+              <div class="img">
+                <img
+                  src="https://n11scdn.akamaized.net/a1/30/22/08/01/84/83/10/49/65/28/06/29/71/92143688675639577247.png"
+                  alt=""
+                />
+              </div>
+
+              <div class="description">
+                <span>Otomotiv & Motosiklet</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="section_1">
+        <div class="box">
+          <div class="img">
+            <img
+              src="https://n11scdn.akamaized.net/a1/1180_440/25/02/27/69/58/14/64/40/92/96/53/82/12664286875686488180.jpg"
+              alt=""
+            />
+          </div>
+        </div>
+
+        <div class="shortcut_box">
+          <div class="shortcuts">
+            <div class="card">
+              <div class="ico">
+                <img
+                  src="https://n11scdn.akamaized.net/a1/org/25/02/28/56/86/85/23/00/36/60/67/42/92374106504827156806.png"
+                  alt=""
+                />
+              </div>
+
+              <div class="description">
+                <span>Ramazan</span>
+              </div>
+            </div>
+
+            <div class="unicode">
+              <span>|</span>
+            </div>
+
+            <div class="card">
+              <div class="ico">
+                <img
+                  src="https://n11scdn.akamaized.net/a1/org/24/12/05/57/75/39/03/95/44/51/93/76/61161725643599922041.png"
+                  alt=""
+                />
+              </div>
+
+              <div class="description">
+                <span>Kampanyalar</span>
+              </div>
+            </div>
+
+            <div class="unicode">
+              <span>|</span>
+            </div>
+
+            <div class="card">
+              <div class="ico">
+                <img
+                  src="https://n11scdn.akamaized.net/a1/org/23/12/14/89/04/10/85/05/77/07/47/08/08332828680747007144.png"
+                  alt=""
+                />
+              </div>
+
+              <div class="description">
+                <span>Kuponlar</span>
+              </div>
+            </div>
+
+            <div class="unicode">
+              <span>|</span>
+            </div>
+
+            <div class="card">
+              <div class="ico">
+                <img
+                  src="https://n11scdn.akamaized.net/a1/org/24/12/03/85/40/77/31/81/62/70/75/61/33015927168091206746.png"
+                  alt=""
+                />
+              </div>
+
+              <div class="description">
+                <span>Sana Özel</span>
+              </div>
+            </div>
+
+            <div class="unicode">
+              <span>|</span>
+            </div>
+
+            <div class="card">
+              <div class="ico">
+                <img
+                  src="https://n11scdn.akamaized.net/a1/org/24/12/03/65/85/81/01/73/96/21/30/26/38976176843259491755.png"
+                  alt=""
+                />
+              </div>
+
+              <div class="description">
+                <span>Yurt Dışından</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="product_box">
+          <div class="title">
+            <span>İncelediğin Ürünlere Benzer 🤩</span>
+          </div>
+
+          <div class="cards">
+            <div class="card">
+              <div class="product_img">
+                <img
+                  src="https://n11scdn.akamaized.net/a1/226_226/08/94/91/34/IMG-2116289005114050481.jpg"
+                  alt=""
+                />
+              </div>
+
+              <div class="description">
+                <div class="name">
+                  <h3>
+                    Kablosuz Bluetooth Kulaklık Katlanır Teleskopik Ağır Bas
+                    Stereo Kart Hareket Bilgisayar Kulaklığı
+                  </h3>
+                </div>
+
+                <div class="rating">
+                  <div class="stars">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                  </div>
+
+                  <div class="reviews">
+                    <span>(20)</span>
+                  </div>
+                </div>
+
+                <div class="price">
+                  <span>SEPETTE</span>
+                  <ins>836.57 TL</ins>
+                </div>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="product_img">
+                <img
+                  src="https://n11scdn.akamaized.net/a1/216/01/05/52/35/IMG-6304529906598792680.jpg"
+                  alt=""
+                />
+              </div>
+
+              <div class="description">
+                <div class="name">
+                  <h3>Sunix BLT-20 Super Bass Kulak Üstü Bluetooth Kulaklık</h3>
+                </div>
+
+                <div class="rating">
+                  <div class="stars">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                  </div>
+
+                  <div class="reviews">
+                    <span>(130)</span>
+                  </div>
+                </div>
+
+                <div class="price">
+                  <span>SEPETTE</span>
+                  <ins>874 TL</ins>
+                </div>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="product_img">
+                <img
+                  src="https://n11scdn.akamaized.net/a1/216/05/85/52/99/IMG-3765350112207031513.jpg"
+                  alt=""
+                />
+              </div>
+
+              <div class="description">
+                <div class="name">
+                  <h3>Sennheiser HD 350BT Bluetooth Kulak Üstü Kulaklık</h3>
+                </div>
+
+                <div class="rating">
+                  <div class="stars">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                  </div>
+
+                  <div class="reviews">
+                    <span>(96)</span>
+                  </div>
+                </div>
+
+                <div class="price">
+                  <span>SEPETTE</span>
+                  <ins>2.924 TL</ins>
+                </div>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="product_img">
+                <img
+                  src="https://n11scdn.akamaized.net/a1/216/07/16/61/74/IMG-738636492864425749.jpg"
+                  alt=""
+                />
+              </div>
+
+              <div class="description">
+                <div class="name">
+                  <h3>Jbl Tune 720BT Bluetooth Kulak Üstü Kulaklık</h3>
+                </div>
+
+                <div class="rating">
+                  <div class="stars">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                  </div>
+
+                  <div class="reviews">
+                    <span>(165)</span>
+                  </div>
+                </div>
+
+                <div class="price">
+                  <span>SEPETTE</span>
+                  <ins>2.600 TL</ins>
+                </div>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="product_img">
+                <img
+                  src="https://n11scdn.akamaized.net/a1/216/03/56/47/14/IMG-1612265331089455242.jpg"
+                  alt=""
+                />
+              </div>
+
+              <div class="description">
+                <div class="name">
+                  <h3>
+                    JBL Tune 510BT Bluetooth Multi Connect Kulak Üstü Kulaklık
+                  </h3>
+                </div>
+
+                <div class="rating">
+                  <div class="stars">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                  </div>
+
+                  <div class="reviews">
+                    <span>(182)</span>
+                  </div>
+                </div>
+
+                <div class="price">
+                  <span>SEPETTE</span>
+                  <ins>1.463 TL</ins>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="product_box_2">
+          <div class="title">
+            <a href="#">Kaçmaz Teklifler ></a>
+          </div>
+
+          <div class="cards">
+            <div class="card">
+              <div class="product_img">
+                <img
+                  src="https://n11scdn.akamaized.net/a1/182_180/04/97/17/45/IMG-7291426916104708157.jpg"
+                  alt=""
+                />
+              </div>
+
+              <div class="description">
+                <div class="name">
+                  <h3>
+                    Huawei Watch GT 3 46 MM Akıllı Saat (Huawei Türkiye
+                    Garantili)
+                  </h3>
+                </div>
+
+                <div class="rating">
+                  <div class="stars">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                  </div>
+
+                  <div class="reviews">
+                    <span>(376)</span>
+                  </div>
+                </div>
+
+                <div class="price">
+                  <span>SEPETTE</span>
+                  <ins>4.199 TL</ins>
+                </div>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="product_img">
+                <img
+                  src="https://n11scdn.akamaized.net/a1/182_180/11/04/81/33/IMG-3546663807597089936.jpg"
+                  alt=""
+                />
+              </div>
+
+              <div class="description">
+                <div class="name">
+                  <h3>80x80 Metal Ayaklı Bahçe Balkon Masa Takımı Krem Krem</h3>
+                </div>
+
+                <div class="rating">
+                  <div class="stars">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                  </div>
+
+                  <div class="reviews">
+                    <span>(381)</span>
+                  </div>
+                </div>
+
+                <div class="price">
+                  <span>SEPETTE</span>
+                  <ins>2.399 TL</ins>
+                </div>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="product_img">
+                <img
+                  src="https://n11scdn.akamaized.net/a1/182_180/05/69/53/45/IMG-6368517031284222345.jpg"
+                  alt=""
+                />
+              </div>
+
+              <div class="description">
+                <div class="name">
+                  <h3>
+                    Skechers Heart Lıghts - Boogıe Love Işıklı Kız Çocuk Spor
+                    Ayakkabı 303257l Mtmt Mtmt
+                  </h3>
+                </div>
+
+                <div class="rating">
+                  <div class="stars">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                  </div>
+
+                  <div class="reviews">
+                    <span>(96)</span>
+                  </div>
+                </div>
+
+                <div class="price">
+                  <span>SEPETTE</span>
+                  <ins>3.011 TL</ins>
+                </div>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="product_img">
+                <img
+                  src="https://n11scdn.akamaized.net/a1/182_180/02/23/74/58/IMG-8717468181318525552.jpg"
+                  alt=""
+                />
+              </div>
+
+              <div class="description">
+                <div class="name">
+                  <h3>Bella Maison Savor Kupa Antrasit 285 CC Antrasit</h3>
+                </div>
+
+                <div class="rating">
+                  <div class="stars">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                  </div>
+
+                  <div class="reviews">
+                    <span>(136)</span>
+                  </div>
+                </div>
+
+                <div class="price">
+                  <span>SEPETTE</span>
+                  <ins>200 TL</ins>
+                </div>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="product_img">
+                <img
+                  src="https://n11scdn.akamaized.net/a1/182_180/12/10/63/50/IMG-1686397732668384012.jpg"
+                  alt=""
+                />
+              </div>
+
+              <div class="description">
+                <div class="name">
+                  <h3>Redragon K617 Fizz RGB Red Switch Mekanik Klavye</h3>
+                </div>
+
+                <div class="rating">
+                  <div class="stars">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                  </div>
+
+                  <div class="reviews">
+                    <span>(23)</span>
+                  </div>
+                </div>
+
+                <div class="price">
+                  <span>SEPETTE</span>
+                  <ins>1.294 TL</ins>
+                </div>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="product_img">
+                <img
+                  src="https://n11scdn.akamaized.net/a1/182_180/10/57/57/29/IMG-85443336741038221.jpg"
+                  alt=""
+                />
+              </div>
+
+              <div class="description">
+                <div class="name">
+                  <h3>Nerf Elite 2.0 Commander E9485</h3>
+                </div>
+
+                <div class="rating">
+                  <div class="stars">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                  </div>
+
+                  <div class="reviews">
+                    <span>(124)</span>
+                  </div>
+                </div>
+
+                <div class="price">
+                  <span>SEPETTE</span>
+                  <ins>465.37 TL</ins>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="product_box">
+          <div class="title">
+            <span>Diğer Seçenekleri Gördün mü? 🔍</span>
+          </div>
+
+          <div class="cards">
+            <div class="card">
+              <div class="product_img">
+                <img
+                  src="https://n11scdn.akamaized.net/a1/226_226/09/95/48/53/IMG-1591764986356228408.jpg"
+                  alt=""
+                />
+              </div>
+
+              <div class="description">
+                <div class="name">
+                  <h3>Philips TAUH202BK/00 Bluetooth Kulak Üstü Kulaklık</h3>
+                </div>
+
+                <div class="rating">
+                  <div class="stars">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                  </div>
+
+                  <div class="reviews">
+                    <span>(20)</span>
+                  </div>
+                </div>
+
+                <div class="price">
+                  <span>SEPETTE</span>
+                  <ins>1.241,50 TL</ins>
+                </div>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="product_img">
+                <img
+                  src="https://n11scdn.akamaized.net/a1/226_226/06/74/15/93/IMG-6601965073706561540.jpg"
+                  alt=""
+                />
+              </div>
+
+              <div class="description">
+                <div class="name">
+                  <h3>
+                    Philips TAH4205RD/00 Bluetooth Mikrofonlu Kulak Üstü
+                    Kulaklık
+                  </h3>
+                </div>
+
+                <div class="rating">
+                  <div class="stars">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                  </div>
+
+                  <div class="reviews">
+                    <span>(130)</span>
+                  </div>
+                </div>
+
+                <div class="price">
+                  <span>SEPETTE</span>
+                  <ins>1.374 TL</ins>
+                </div>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="product_img">
+                <img
+                  src="https://n11scdn.akamaized.net/a1/226_226/14/23/69/93/IMG-563646386589914712.jpg"
+                  alt=""
+                />
+              </div>
+
+              <div class="description">
+                <div class="name">
+                  <h3>Jbl Tune 660 BT NC Bluetooth Kulak Üstü Kulaklık</h3>
+                </div>
+
+                <div class="rating">
+                  <div class="stars">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                  </div>
+
+                  <div class="reviews">
+                    <span>(96)</span>
+                  </div>
+                </div>
+
+                <div class="price">
+                  <span>SEPETTE</span>
+                  <ins>2.490,63 TL</ins>
+                </div>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="product_img">
+                <img
+                  src="https://n11scdn.akamaized.net/a1/226_226/10/43/89/73/IMG-2726258881355643580.jpg"
+                  alt=""
+                />
+              </div>
+
+              <div class="description">
+                <div class="name">
+                  <h3>MF Product 0462 Bluetooth 5.0 Kulak Üstü Kulaklık</h3>
+                </div>
+
+                <div class="rating">
+                  <div class="stars">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                  </div>
+
+                  <div class="reviews">
+                    <span>(165)</span>
+                  </div>
+                </div>
+
+                <div class="price">
+                  <span>SEPETTE</span>
+                  <ins>599 TL</ins>
+                </div>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="product_img">
+                <img
+                  src="https://n11scdn.akamaized.net/a1/216/03/56/47/14/IMG-1612265331089455242.jpg"
+                  alt=""
+                />
+              </div>
+
+              <div class="description">
+                <div class="name">
+                  <h3>
+                    JBL Tune 510BT Bluetooth Multi Connect Kulak Üstü Kulaklık
+                  </h3>
+                </div>
+
+                <div class="rating">
+                  <div class="stars">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                  </div>
+
+                  <div class="reviews">
+                    <span>(182)</span>
+                  </div>
+                </div>
+
+                <div class="price">
+                  <span>SEPETTE</span>
+                  <ins>1.463 TL</ins>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="promo_con">
+          <div class="promo_area">
+            <div class="right">
+              <div class="cards">
+                <div class="card">
+                  <div class="product_img">
+                    <img
+                      src="https://n11scdn.akamaized.net/a1/182_180/10/17/87/38/IMG-85189016096169674.jpg"
+                      alt=""
+                    />
+                  </div>
+
+                  <div class="description">
+                    <div class="name">
+                      <h3>
+                        Roborock S8 Sonic Mopping Akıllı Robot Süpürge Beyaz
+                      </h3>
+                    </div>
+
+                    <div class="rating">
+                      <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                      </div>
+
+                      <div class="reviews">
+                        <span>(270)</span>
+                      </div>
+                    </div>
+
+                    <div class="price">
+                      <span>SEPETTE</span>
+                      <ins>19.999 TL</ins>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="card">
+                  <div class="product_img">
+                    <img
+                      src="https://n11scdn.akamaized.net/a1/182_180/09/66/07/81/IMG-799891451899173547.jpg"
+                      alt=""
+                    />
+                  </div>
+
+                  <div class="description">
+                    <div class="name">
+                      <h3>
+                        Baymak Elegant Plus UV 12 12000 BTU Inverter Duvar Tipi
+                        Klima
+                      </h3>
+                    </div>
+
+                    <div class="rating">
+                      <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                      </div>
+
+                      <div class="reviews">
+                        <span>(94)</span>
+                      </div>
+                    </div>
+
+                    <div class="price">
+                      <span>SEPETTE</span>
+                      <ins>26.383 TL</ins>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="card">
+                  <div class="product_img">
+                    <img
+                      src="https://n11scdn.akamaized.net/a1/182_180/04/00/24/10/IMG-3296725193955696125.jpg"
+                      alt=""
+                    />
+                  </div>
+
+                  <div class="description">
+                    <div class="name">
+                      <h3>
+                        Acer Nitro V15 ANV15-41-R3F8 NH.QSJEY.001 ﻿﻿R5-7535HS 8
+                        GB 512 GB SSD RTX2050 15.6" Dos Dizüstü Bilgisayar
+                      </h3>
+                    </div>
+
+                    <div class="rating">
+                      <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                      </div>
+
+                      <div class="reviews">
+                        <span>(112)</span>
+                      </div>
+                    </div>
+
+                    <div class="price">
+                      <span>SEPETTE</span>
+                      <ins>21.799 TL</ins>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="brand_list">
+                <div class="samsung">
+                  <img
+                    src="https://n11scdn.akamaized.net/a1/org/25/01/14/51/05/23/15/83/58/78/52/78/73194151275701712109.png"
+                    alt=""
+                  />
+                </div>
+
+                <div class="mi">
+                  <img
+                    src="https://n11scdn.akamaized.net/a1/org/25/01/08/85/87/34/70/16/55/92/48/90/54821509212243773702.png"
+                    alt=""
+                  />
+                </div>
+
+                <div class="apple">
+                  <img
+                    src="https://n11scdn.akamaized.net/a1/org/25/01/08/72/80/79/85/22/40/75/18/26/95990004154557577125.png"
+                    alt=""
+                  />
+                </div>
+
+                <div class="lenovo">
+                  <img
+                    src="https://n11scdn.akamaized.net/a1/org/25/01/09/50/89/87/19/99/40/89/14/33/57326531155991507760.png"
+                    alt=""
+                  />
+                </div>
+
+                <div class="tcl">
+                  <img
+                    src="https://n11scdn.akamaized.net/a1/org/25/01/08/59/56/50/46/14/91/37/34/74/02242849625968064341.png"
+                    alt=""
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="promo_con_2">
+          <div class="promo_area">
+            <div class="right">
+              <div class="cards">
+                <div class="card">
+                  <div class="product_img">
+                    <img
+                      src="https://n11scdn.akamaized.net/a1/182_180/01/91/98/67/IMG-6669301975444441242.jpg"
+                      alt=""
+                    />
+                  </div>
+
+                  <div class="description">
+                    <div class="name">
+                      <h3>
+                        Adidas B75806 Samba Og Unisex Günlük Spor Ayakkabısı
+                      </h3>
+                    </div>
+
+                    <div class="rating">
+                      <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                      </div>
+
+                      <div class="reviews">
+                        <span>(35)</span>
+                      </div>
+                    </div>
+
+                    <div class="price">
+                      <span>SEPETTE</span>
+                      <ins>4.399 TL</ins>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="card">
+                  <div class="product_img">
+                    <img
+                      src="https://n11scdn.akamaized.net/a1/182_180/04/02/96/87/IMG-2646894227066811903.jpg"
+                      alt=""
+                    />
+                  </div>
+
+                  <div class="description">
+                    <div class="name">
+                      <h3>
+                        Adidas Hoops GY5427 3.0 Erkek Günlük Ayakkabı Beyaz
+                      </h3>
+                    </div>
+
+                    <div class="rating">
+                      <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                      </div>
+
+                      <div class="reviews">
+                        <span>(168)</span>
+                      </div>
+                    </div>
+
+                    <div class="price">
+                      <span>SEPETTE</span>
+                      <ins>1.799 TL</ins>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="card">
+                  <div class="product_img">
+                    <img
+                      src="https://n11scdn.akamaized.net/a1/182_180/04/10/28/90/IMG-5841072615273918808.jpg"
+                      alt=""
+                    />
+                  </div>
+
+                  <div class="description">
+                    <div class="name">
+                      <h3>
+                        Puma Skye Clean 380147 02 Kadın Günlük Spor Ayakkabı
+                        Beyaz
+                      </h3>
+                    </div>
+
+                    <div class="rating">
+                      <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                      </div>
+
+                      <div class="reviews">
+                        <span>(145)</span>
+                      </div>
+                    </div>
+
+                    <div class="price">
+                      <span>SEPETTE</span>
+                      <ins>21.799 TL</ins>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="brand_list" id="second_brand_list">
+                <div class="adidas">
+                  <img
+                    src="https://n11scdn.akamaized.net/a1/org/25/03/12/59/44/59/55/38/74/71/98/18/83777024775459721072.png"
+                    alt=""
+                  />
+                </div>
+
+                <div class="puma">
+                  <img
+                    src="https://n11scdn.akamaized.net/a1/org/24/08/28/83/58/80/39/40/55/78/35/71/88591277121860776001.png"
+                    alt=""
+                  />
+                </div>
+
+                <div class="converse">
+                  <img
+                    src="https://n11scdn.akamaized.net/a1/org/24/08/28/59/02/14/36/80/75/54/13/73/34106368273431480854.png"
+                    alt=""
+                  />
+                </div>
+
+                <div class="vans">
+                  <img
+                    src="https://n11scdn.akamaized.net/a1/org/25/03/12/46/50/94/73/72/75/08/75/30/08265732921676182290.png"
+                    alt=""
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="brands_area">
+          <div class="brands_container">
+            <div class="title">
+              <h3>Markalar</h3>
+            </div>
+
+            <div class="icons">
+              <div class="defacto">
+                <img
+                  src="https://n11scdn.akamaized.net/a1/org/24/10/22/65/95/73/50/14/02/22/06/34/38115575922986339810.jpg"
+                  alt=""
+                />
+              </div>
+
+              <div class="mavi">
+                <img
+                  src="https://n11scdn.akamaized.net/a1/org/24/10/22/78/39/68/18/01/04/77/42/67/27454315749700290735.jpg"
+                  alt=""
+                />
+              </div>
+
+              <div class="polo">
+                <img
+                  src="https://n11scdn.akamaized.net/a1/org/24/10/22/80/24/48/34/12/27/12/07/69/16354339138800009615.jpg"
+                  alt=""
+                />
+              </div>
+
+              <div class="madame">
+                <img
+                  src="https://n11scdn.akamaized.net/a1/org/24/09/30/66/58/77/53/99/20/75/84/75/21763789500440658726.jpg"
+                  alt=""
+                />
+              </div>
+
+              <div class="flo">
+                <img
+                  src="https://n11scdn.akamaized.net/a1/org/23/05/25/79/96/04/45/54/96/77/67/62/76826852885052898073.png"
+                  alt=""
+                />
+              </div>
+
+              <div class="loreal">
+                <img
+                  src="https://n11scdn.akamaized.net/a1/org/21/05/03/68/15/84/06/15/62/86/26/23/32633710669061273057.jpg"
+                  alt=""
+                />
+              </div>
+
+              <div class="karaca">
+                <img
+                  src="https://n11scdn.akamaized.net/a1/org/23/06/23/85/90/69/56/80/11/45/05/08/65716302984392428504.jpg"
+                  alt=""
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="footer">
+          <div class="features">
+            <div class="feature">
+              <div class="ico">
+                <i class="fa-solid fa-percent"></i>
+              </div>
+
+              <div class="text">
+                <span> Her Alışverişte Kupon Fırsatları </span>
+              </div>
+            </div>
+
+            <div class="feature">
+              <div class="ico">
+                <i class="fa-regular fa-star"></i>
+              </div>
+
+              <div class="text">
+                <span> Her Gün Yeni Ürünler ve Fırsatlar </span>
+              </div>
+            </div>
+
+            <div class="feature">
+              <div class="ico">
+                <i class="fa-regular fa-credit-card"></i>
+              </div>
+
+              <div class="text">
+                <span> Herkese Uygun Ödeme Yöntemleri </span>
+              </div>
+            </div>
+
+            <div class="feature">
+              <div class="ico">
+                <i class="fa-solid fa-rotate-left"></i>
+              </div>
+
+              <div class="text">
+                <span> İade </span>
+              </div>
+            </div>
+          </div>
+
+          <div class="site_nav">
+            <div class="left">
+              <div class="column">
+                <div class="title">
+                  <h4>n11</h4>
+                </div>
+
+                <div class="text_box">
+                  <span>Marka Koruma Merkezi</span>
+                  <span>Markalar</span>
+                  <span>İletişim</span>
+                </div>
+              </div>
+
+              <div class="column">
+                <div class="title">
+                  <h4>Müşteriler</h4>
+                </div>
+
+                <div class="text_box">
+                  <span>Üye Ol</span>
+                  <span>Yeni Üye Rehberi</span>
+                  <span>Yardım</span>
+                  <span>Ödeme Seçenekleri</span>
+                  <span>İptal & İade</span>
+                  <span>İşlem Rehberi</span>
+                  <span>Kullanıcı Güvenliği</span>
+                  <span>Site Haritası</span>
+                  <span>Kupon Kullanım Rehberi</span>
+                  <span>Ürün Rozetleri Rehberi</span>
+                  <span>n11 Influencer Programı</span>
+                </div>
+              </div>
+
+              <div class="column">
+                <div class="title">
+                  <h4>Popüler Sayfalar</h4>
+                </div>
+
+                <div class="text_box">
+                  <span>Akıllı Saat</span>
+                  <span>Kurutma Makinesi</span>
+                  <span>Altın</span>
+                  <span>Cep Telefonu</span>
+                  <span>iPhone 14</span>
+                  <span>Bluetooth Kulaklık</span>
+                  <span>Airfryer/Fritöz</span>
+                  <span>Airpods Kulaklık</span>
+                  <span>Robot Süpürge</span>
+                  <span>Playstation 5</span>
+                  <span>Apple Watch</span>
+                </div>
+              </div>
+
+              <div class="column">
+                <div class="title">
+                  <h4>Öne Çıkan Sayfalar</h4>
+                </div>
+
+                <div class="text_box">
+                  <span>iPhone 16</span>
+                  <span>Kahve Makinesi</span>
+                  <span>iPhone 15</span>
+                  <span>Laptop</span>
+                  <span>Ramazan Kampanyası</span>
+                  <span>Isıtıcı</span>
+                  <span>Ramazan Süsleri</span>
+                  <span>Su Arıtma Cihazı</span>
+                  <span>Dyson Hava Temizleyici</span>
+                  <span>Apple Watch 9</span>
+                  <span>Avize</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="right">
+              <div class="card">
+                <div class="title">
+                  <h4>Mağazalar</h4>
+                </div>
+
+                <div class="btn">
+                  <span>Mağaza Girişi</span>
+                </div>
+
+                <div class="btn_2">
+                  <span>Ücretsiz Mağaza Aç</span>
+                </div>
+
+                <div class="text_box">
+                  <span>Mağaza Girişi</span>
+                  <span>Mağaza Puanı Hesaplaması</span>
+                  <span>Mağaza Yardım Merkezi</span>
+                  <span>Yeni Mağaza Rehberi</span>
+                  <span>Kargo Rehberi</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="socials">
+            <div class="mob_bar">
+              <h4>
+                n11 uygulamasını ücretsiz indir mobile <br />
+                özel avantajlardan yararlan!
+              </h4>
+
+              <div class="applications">
+                <div class="appstore">
+                  <img
+                    src="https://w7.pngwing.com/pngs/822/688/png-transparent-apple-on-the-app-store-screenshot-iphone-app-store-google-play-store-electronics-text-logo-thumbnail.png"
+                    alt=""
+                  />
+                </div>
+
+                <div class="googleplay">
+                  <img
+                    src="https://freelogopng.com/images/all_img/1664287128google-play-store-logo-png.png"
+                    alt=""
+                  />
+                </div>
+              </div>
+            </div>
+
+            <div class="social_links">
+              <h4>Bizi Takip Et</h4>
+
+              <div class="iconbox">
+                <div class="ico">
+                  <i class="fa-brands fa-facebook"></i>
+                </div>
+                <div class="ico">
+                  <i class="fa-brands fa-twitter"></i>
+                </div>
+                <div class="ico">
+                  <i class="fa-brands fa-instagram"></i>
+                </div>
+                <div class="ico">
+                  <i class="fa-brands fa-youtube"></i>
+                </div>
+                <div class="ico">
+                  <i class="fa-brands fa-pinterest"></i>
+                </div>
+              </div>
+            </div>
+
+            <div class="blog">
+              <h4>Bloga Göz At</h4>
+
+              <div class="logo">
+                <img
+                  src="https://n11scdn.akamaized.net/a1/org/25/03/18/89/65/01/31/94/13/25/13/93/66889250221518075393.svg"
+                  alt=""
+                />
+              </div>
+            </div>
+
+            <div class="etbis">
+              <div class="etbis_logo">
+                <img
+                  src="https://www.adenbilisim.com.tr/wp-content/uploads/2021/04/etbis.png"
+                  alt=""
+                />
+              </div>
+
+              <div class="tr_go">
+                <img
+                  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTn--FJKUCzEfHodkt7L12DNnghVOYh1YdNPQ&s"
+                  alt=""
+                />
+              </div>
+            </div>
+          </div>
+
+          <div class="footer_bottom">
+            <div class="legal">
+              <span>© Telif Hakkı 2012-2025 n11</span>
+
+              <div class="rules">
+                <a href="#"
+                  >Müşteri Kişisel Verilerinin İşlenmesine İlişkin Aydınlatma
+                  Metni</a
+                >
+                <a href="#">Kullanım Koşullarımız</a>
+                <a href="#">Çerez Ayarları</a>
+              </div>
+            </div>
+
+            <div class="bank_logos">
+              <div class="img">
+                <img
+                  src="https://pngimg.com/uploads/mastercard/mastercard_PNG7.png"
+                  alt=""
+                />
+              </div>
+
+              <div class="img">
+                <img
+                  src="https://upload.wikimedia.org/wikipedia/commons/4/41/Visa_Logo.png"
+                  alt=""
+                />
+              </div>
+
+              <div class="img">
+                <img
+                  src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/American_Express_logo_%282018%29.svg/2052px-American_Express_logo_%282018%29.svg.png"
+                  alt=""
+                />
+              </div>
+
+              <div class="img">
+                <img
+                  src="https://upload.wikimedia.org/wikipedia/commons/c/c2/Troy-logo-sloganli.png"
+                  alt=""
+                />
+              </div>
+
+              <div class="img">
+                <img
+                  src="https://seeklogo.com/images/B/bkm-express-logo-5ACBBB198C-seeklogo.com.png"
+                  alt=""
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
