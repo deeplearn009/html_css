@@ -1441,6 +1441,7 @@
       ::-webkit-scrollbar {
         display: none;
       }
+      scrollbar-width: none;
       
       .card {
         flex-direction: column;
@@ -1480,6 +1481,7 @@
       ::-webkit-scrollbar {
         display: none;
       }
+      scrollbar-width: none;
       //   flex-direction: row;
       //   flex-wrap: wrap;
       //   justify-content: space-between;
@@ -1504,9 +1506,9 @@
             font-size: 10px;
           }
           .price {
-            margin-top: 10px;
+            margin-top: 5px;
             ins {
-              font-size: 16px;
+              font-size: 14px;
             }
             span {
               font-size: 11px;
@@ -1585,7 +1587,7 @@
             margin-top: 240px;
             background: #d4be9c;
             width: 100%;
-            padding: 5px;
+            padding: 0px 5px 5px 5px;
             justify-content: space-between;
             gap: 10px;
             .card {
@@ -1620,10 +1622,10 @@
         .right {
           width: 100%;
           .cards {
-            margin-top: 240px;
+            margin-top: 275px;
             background: #597482;
             width: 100%;
-            padding: 5px;
+            padding: 0px 5px 5px 5px;
             justify-content: space-between;
             gap: 10px;
             .card {
