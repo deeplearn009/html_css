@@ -17,6 +17,7 @@
   flex-direction: column;
   background-color: #fff;
   position: fixed;
+  top: 0;
   z-index: 1;
 }
 .container .header_con .header {
@@ -1531,6 +1532,13 @@
   .container .section_1 .product_box .cards .card .product_img {
     margin-bottom: 0;
   }
+  .container .section_1 .product_box .cards .card .product_img .favorite {
+    width: 20px;
+    height: 20px;
+  }
+  .container .section_1 .product_box .cards .card .product_img .favorite i {
+    font-size: 10px;
+  }
   .container .section_1 .product_box .cards .card .description .price {
     margin-top: 20px;
   }
@@ -1574,6 +1582,13 @@
   .container .section_1 .product_box_2 .cards .card .product_img img {
     width: 100%;
     height: auto;
+  }
+  .container .section_1 .product_box_2 .cards .card .product_img .favorite {
+    width: 20px;
+    height: 20px;
+  }
+  .container .section_1 .product_box_2 .cards .card .product_img .favorite i {
+    font-size: 10px;
   }
   .container .section_1 .product_box_2 .cards .card .description {
     width: 100%;

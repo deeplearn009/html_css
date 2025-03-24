@@ -18,6 +18,7 @@
     flex-direction: column;
     background-color: #fff;
     position: fixed;
+    top: 0;
     z-index: 1;
     .header {
       width: 70%;
@@ -25,6 +26,7 @@
       display: flex;
       justify-content: space-between;
       align-items: center;
+      
       .logo {
         width: 10%;
         height: 100%;
@@ -1569,6 +1571,13 @@
         width: 30%;
         .product_img {
           margin-bottom: 0;
+            .favorite {
+              width: 20px;
+              height: 20px;
+                i {
+                  font-size: 10px;
+                }
+            }
         }
         .description .price {
           margin-top: 20px;
@@ -1618,6 +1627,13 @@
           img {
             width: 100%;
             height: auto;
+          }
+          .favorite {
+            width: 20px;
+            height: 20px;
+              i {
+                font-size: 10px;
+              }
           }
         }
 
