@@ -429,10 +429,38 @@
   border-top-right-radius: 6px;
   overflow: hidden;
   border: 1px solid #dedede;
+  position: relative;
 }
 .container .section_1 .product_box .cards .card .product_img img {
   width: 100%;
   height: auto;
+  transition: 0.5s;
+}
+.container .section_1 .product_box .cards .card .product_img img:hover {
+  transform: scale(1.1);
+  transition: 0.5s;
+}
+.container .section_1 .product_box .cards .card .product_img .favorite {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 4px;
+  right: 7px;
+  background-color: #f5f5f5;
+  border-radius: 50%;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.25);
+}
+.container .section_1 .product_box .cards .card .product_img .favorite i {
+  color: rgba(0, 0, 0, 0.692);
+  transition: 0.2s;
+}
+.container .section_1 .product_box .cards .card .product_img .favorite i:hover {
+  color: red;
+  transition: 0.2s;
+  transform: scale(1.1);
 }
 .container .section_1 .product_box .cards .card .description {
   width: 90%;
@@ -557,6 +585,33 @@
 .container .section_1 .product_box_2 .cards .card .product_img img {
   width: 182px;
   height: 180px;
+  transition: 0.5s;
+}
+.container .section_1 .product_box_2 .cards .card .product_img img:hover {
+  transform: scale(1.1);
+  transition: 0.5s;
+}
+.container .section_1 .product_box_2 .cards .card .product_img .favorite {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 4px;
+  right: 7px;
+  background-color: #f5f5f5;
+  border-radius: 50%;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.25);
+}
+.container .section_1 .product_box_2 .cards .card .product_img .favorite i {
+  color: rgba(0, 0, 0, 0.692);
+  transition: 0.2s;
+}
+.container .section_1 .product_box_2 .cards .card .product_img .favorite i:hover {
+  color: red;
+  transition: 0.2s;
+  transform: scale(1.1);
 }
 .container .section_1 .product_box_2 .cards .card .description {
   width: 90%;
@@ -669,6 +724,12 @@
   background-color: #fff;
   border-radius: 6px;
   overflow: hidden;
+  transition: 0.5s;
+  cursor: pointer;
+}
+.container .section_1 .promo_con .promo_area .right .cards .card:hover {
+  transition: 0.5s;
+  transform: scale(1.1);
 }
 .container .section_1 .promo_con .promo_area .right .cards .card .product_img {
   width: 100%;
@@ -820,6 +881,12 @@
   background-color: #fff;
   border-radius: 6px;
   overflow: hidden;
+  transition: 0.5s;
+  cursor: pointer;
+}
+.container .section_1 .promo_con_2 .promo_area .right .cards .card:hover {
+  transition: 0.5s;
+  transform: scale(1.1);
 }
 .container .section_1 .promo_con_2 .promo_area .right .cards .card .product_img {
   width: 100%;
@@ -986,6 +1053,17 @@
 .container .section_1 .brands_area .brands_container .icons .karaca img {
   width: 100%;
   height: auto;
+  transition: 0.5s;
+}
+.container .section_1 .brands_area .brands_container .icons .defacto img:hover,
+.container .section_1 .brands_area .brands_container .icons .mavi img:hover,
+.container .section_1 .brands_area .brands_container .icons .polo img:hover,
+.container .section_1 .brands_area .brands_container .icons .madame img:hover,
+.container .section_1 .brands_area .brands_container .icons .flo img:hover,
+.container .section_1 .brands_area .brands_container .icons .loreal img:hover,
+.container .section_1 .brands_area .brands_container .icons .karaca img:hover {
+  transition: 0.5s;
+  transform: scale(0.9);
 }
 .container .section_1 .footer {
   width: 100%;
